@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ChatBotImplement from './ChatBotImplement';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Licensing And Registration</h1>
+        <h2>Enter your Email : </h2>
+        <input type="email" size="40" width="30px"></input>
+        <br></br>
+        <h2>Enter your Password : </h2>
+        <input type="password"></input>
+        <ChatBotImplement/>
     </div>
   );
 }

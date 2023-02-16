@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding-left: 10%;
 }
-
+.Chatbot{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+input{
+  height: 5%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

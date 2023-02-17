@@ -1,7 +1,11 @@
 import React from "react";
 
-function Redirect(){
-    window.open('https://www.barclays.in/home/contact-us/', "_blank");
+const Redirect = (props) =>{
+    return (
+        <div>
+            <a href={props.url} target="_blank">{props.message}</a>
+        </div>
+    );
     
 }
 

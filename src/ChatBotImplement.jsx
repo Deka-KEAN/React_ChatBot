@@ -49,7 +49,7 @@ const steps = [
     },
     {
         id: '7',
-        message:'Send an email to customerhelp@barclays.com we will revert back in 2 business days.',
+        message:'Send an email to customerhelp@helper.com we will revert back in 2 business days.',
         trigger: '8'
     },
     {
@@ -60,7 +60,8 @@ const steps = [
     },
     {
         id:'10',
-        component:(<Redirect message='Click here for Contacts' url='https://www.barclays.in/home/contact-us/'/>),
+        // added a random URL to redirect to any contacts page
+        component:(<Redirect message='Click here for Contacts' url='https://help.medium.com/hc/en-us'/>),
         asMessage: true,
         trigger:'9'
     }

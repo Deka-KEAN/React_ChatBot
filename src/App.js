@@ -11,6 +11,8 @@ function App() {
         <br></br>
         <h2>Enter your Password : </h2>
         <input type="password"></input> 
+        <br></br>
+        <button>Submit</button>
         <ChatBotImplement/>
     </div>
   );

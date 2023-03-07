@@ -5,7 +5,7 @@ import ChatBotImplement from './ChatBotImplement';
 function App() {
   return (
     <div className="App">
-        <h1>React ChatBot</h1>
+        <h1>React Dummy Form</h1>
         <h2>Enter your Email : </h2>
         <input type="email"></input>
         <br></br>

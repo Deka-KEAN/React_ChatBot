@@ -3,7 +3,7 @@ import React from "react";
 const Redirect = (props) =>{
     return (
         <div>
-            <a href={props.url} target="_blank">{props.message}</a>
+            <a href={props.url} target="_blank" rel="noreferrer">{props.message}</a>
         </div>
     );
     
